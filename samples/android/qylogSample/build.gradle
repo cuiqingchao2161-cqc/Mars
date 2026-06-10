@@ -1,0 +1,30 @@
+
+buildscript {
+    repositories {
+        google()
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        classpath('com.android.tools.build:gradle:7.4.2')
+    }
+}
+
+allprojects {
+
+    configurations.all {
+        resolutionStrategy {
+        }
+    }
+    repositories {
+
+        maven { url 'https://jitpack.io' }
+        google()
+        mavenLocal()
+        mavenCentral()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

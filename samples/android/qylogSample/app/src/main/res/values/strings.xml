@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Qylog Sample</string>
+    <string name="write_can">Write CanLog.i</string>
+    <string name="write_gps">Write GpsLog.i</string>
+    <string name="write_device">Write DeviceLog.i</string>
+    <string name="write_bytes">Write CanLog.bytes</string>
+    <string name="flush_all">Flush All</string>
+    <string name="close_reopen_can">Close/Reopen CAN</string>
+</resources>

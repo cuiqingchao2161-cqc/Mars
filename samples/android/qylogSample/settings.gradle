@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'qylogSample'
+
+include ':app'
+include ':qylog_sdk'
+
+project(':qylog_sdk').projectDir = file('../../../mars/libraries/qylog_sdk')

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/status_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/write_can"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/write_can" />
+
+        <Button
+            android:id="@+id/write_gps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/write_gps" />
+
+        <Button
+            android:id="@+id/write_device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/write_device" />
+
+        <Button
+            android:id="@+id/write_bytes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/write_bytes" />
+
+        <Button
+            android:id="@+id/flush_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/flush_all" />
+
+        <Button
+            android:id="@+id/close_reopen_can"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/close_reopen_can" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,3 @@
+// qylogSample compiles qylog_sdk as a local module only.
+// Publishing configuration is intentionally disabled for this sample root.
+ext.artifactId = null
